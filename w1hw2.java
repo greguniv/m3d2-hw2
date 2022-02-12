@@ -48,7 +48,12 @@ public class w1hw2 {
 		
 
 //			Write a Java program to trim the capacity of an array list the current list size
-		
+		ArrayList<String> anime4 = new ArrayList<>();
+		anime4.add("Gekkan Shoujo Nozaki-kun");
+		anime4.addAll(Arrays.asList("Test", "Another", "Anime", "Love Live"));
+		System.out.println("Original array: " + anime4);
+		anime4.trimToSize();
+		System.out.println(anime4);
 		
 		
 		//HUNGRY FOR MORE
