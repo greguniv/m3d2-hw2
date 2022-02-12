@@ -39,9 +39,13 @@ public class w1hw2 {
 		
 
 //			Write a Java program to test if an array list is empty or not
-		System.out.println(anime.isEmpty());
+		System.out.println(anime.isEmpty()); //returns false bc it is not empty
 
 //			Write a Java program to replace the second element of an ArrayList with the specified element.
+		System.out.println("Original element: " + anime);
+		anime.set(2, "Naruto");
+		System.out.println("The replaced element: " + anime);
+		
 
 //			Write a Java program to trim the capacity of an array list the current list size
 		
@@ -60,6 +64,11 @@ public class w1hw2 {
 //			Write a Java program to compare two sets and retain elements that are the same on both sets.
 		
 		
+	}
+
+	private static char[] trimArrayList(ArrayList<String> anime2) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
