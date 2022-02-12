@@ -39,7 +39,7 @@ public class w1hw2 {
 		
 
 //			Write a Java program to test if an array list is empty or not
-		
+		System.out.println(anime.isEmpty());
 
 //			Write a Java program to replace the second element of an ArrayList with the specified element.
 
